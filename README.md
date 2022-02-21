@@ -39,3 +39,15 @@ a. Full event rumour detection
 b. Early rumour detection  
 &emsp;i. Time limited (15 mins, 30 mins, 1 hour, etc.)  
 &emsp;ii. Response limited (25 responses, 50 responses, 100 responses, etc.)
+
+## Updates
+
+#### Dataset and preprocessing
+
+|Dataset|Original Tweets|Missing Tweets|Missing %|Added Tweets|
+|-------|---------------|--------------|---------|------------|
+|Twitter 15|607289|-|-|-|
+|Twitter 16|352987|-|-|-|
+|Twitter 15/16 (Shaun's Data)|72055|24393|33.85%|72113|
+|PHEME-9|119419|-|-|-|
+
