@@ -44,10 +44,29 @@ b. Early rumour detection
 
 #### Dataset and preprocessing
 
-|Dataset|Original Tweets|Missing Tweets|Missing %|Added Tweets|
-|-------|---------------|--------------|---------|------------|
-|Twitter 15|607289|-|-|-|
-|Twitter 16|352987|-|-|-|
-|Twitter 15/16 (Shaun's Data)|72055|24393|33.85%|72113|
-|PHEME-9|119419|-|-|-|
+|Dataset|Tweets|Links|Unique Tweet IDs|Source Tweets/Tree|Unique %|
+|-------|------|-----|----------------|------------------|--------|
+|Twitter 15|598258|604825|53641|1490|8.97%|-|-|-|
+|Twitter 16|347360|351623|26402|818|7.6%|-|-|-|
+|PHEME-9|119419|-|-|-|-|
 
+|Dataset|Tweets|Links|Unique Tweet IDs|Source Tweets/Tree|Unique %|
+|-------|------|-----|----------------|------------------|--------|
+|Twitter 15 and 16|598258|604825|53641|1490|8.97%|-|-|-|
+
+#### Twitter 15 and 16 - RvNN GitHub Repo vs RumDect2017 Dropbox
+
+|Dataset|RumDect2017 Tweet IDs|TD File Tweet IDs|TD File Unseen Tweet IDs|BU File Tweet IDs|BU File Unseen Tweet IDs|
+|-------|---------------------|-----------------|------------------------|-----------------|------------------------|
+|Twitter 15 and 16|53641|1797|508|
+|Twitter 16|26402|3098||
+
+|Train 15 Tweet IDs (nfold)|Test 15 Tweet IDs (nfold)|Train 16 Tweet IDs (nfold)|Test 16 Tweet IDs (nfold)|
+|--------------------------|-------------------------|--------------------------|-------------------------|
+
+
+#### 
+
+<!-- |Missing Tweets|Missing %|Added Tweets|
+|--------------|---------|------------|
+|Twitter 15/16 (Shaun's Data)|72055|24393|33.85%|72113| -->
