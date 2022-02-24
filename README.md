@@ -46,23 +46,30 @@ b. Early rumour detection
 
 |Dataset|Tweets|Links|Unique Tweet IDs|Source Tweets/Tree|Unique %|
 |-------|------|-----|----------------|------------------|--------|
-|Twitter 15|598258|604825|53641|1490|8.97%|-|-|-|
-|Twitter 16|347360|351623|26402|818|7.6%|-|-|-|
+|Twitter 15|598,258|604,825|53,641|1,490|8.97%|
+|Twitter 16|347,360|351,623|26,402|818|7.6%|
+|Twitter 15 ∪ Twitter 16|895,427|900,776|74,254|2,139|8.29%|
+|Twitter 15 ∩ Twitter 16|54,454|55,672|5,789|169|10.63%|
 |PHEME-9|119419|-|-|-|-|
-
-|Dataset|Tweets|Links|Unique Tweet IDs|Source Tweets/Tree|Unique %|
-|-------|------|-----|----------------|------------------|--------|
-|Twitter 15 and 16|598258|604825|53641|1490|8.97%|-|-|-|
 
 #### Twitter 15 and 16 - RvNN GitHub Repo vs RumDect2017 Dropbox
 
-|Dataset|RumDect2017 Tweet IDs|TD File Tweet IDs|TD File Unseen Tweet IDs|BU File Tweet IDs|BU File Unseen Tweet IDs|
-|-------|---------------------|-----------------|------------------------|-----------------|------------------------|
-|Twitter 15 and 16|53641|1797|508|
-|Twitter 16|26402|3098||
+##### Comparing top-down and bottom-up files from GitHub against RumDect2017
+|Dataset|Tweet IDs|% of RumDect2017 Tweet IDs|Tweet IDs not in RumDect2017|
+|-------|---------|--------------------------|----------------------------|
+|RumDect2017|53,641|-|-|
+|TD File|1,797|3.35%|508|
+|BU File|3,098|5.78%|957|
 
-|Train 15 Tweet IDs (nfold)|Test 15 Tweet IDs (nfold)|Train 16 Tweet IDs (nfold)|Test 16 Tweet IDs (nfold)|
-|--------------------------|-------------------------|--------------------------|-------------------------|
+##### Comparing nfold files from GitHub against RumDect2017
+|Dataset|Source Tweet IDs|Unseen IDs|% of All Tweet IDs|
+|-------|----------------|----------|------------------|
+|RumDect2017|2,139|100%|-|
+|Train 15|nfold|1490||0|
+|Test 15|nfold|1480||0|
+|Train 16|nfold|818||0|
+|Test 16|nfold|819||4|
+
 
 
 #### 
